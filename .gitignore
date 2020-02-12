@@ -147,3 +147,5 @@ elm/*.js
 !elm/bootstrap.js
 wasm/*.wat
 wasm/*.wasm
+
+.idea/

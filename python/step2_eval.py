@@ -1,5 +1,5 @@
 import sys, traceback
-import mal_readline
+#import mal_readline
 import mal_types as types
 import reader, printer
 
@@ -55,7 +55,7 @@ repl_env['/'] = lambda a,b: int(a/b)
 # repl loop
 while True:
     try:
-        line = mal_readline.readline("user> ")
+        line = input("user> ")
         if line == None: break
         if line == "": continue
         print(REP(line))
